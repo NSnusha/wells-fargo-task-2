@@ -8,6 +8,7 @@ public class Client {
     @Column(name = "client_id")
     private Long clientId;
 
+
     @Column(nullable = false)
     private String name;
 
